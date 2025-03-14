@@ -3,6 +3,7 @@ import { DefaultTheme } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
     body, html {
+        font-family: "Orbitron", sans-serif;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -12,6 +13,7 @@ export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
     h1, h2, p, ul, li, figure {
         margin: 0;
         padding: 0;
+        text-decoration: none;
     }
 
 `;
