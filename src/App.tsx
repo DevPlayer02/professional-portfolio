@@ -1,9 +1,11 @@
+//COMPONENTS
+import { Header } from "./components";
+
 // PAGES
 import {
   AboutMe,
   Footer,
   HardSkills,
-  Navbar,
   Presentation,
   Projects,
   ServicesProvided,
@@ -12,7 +14,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Header />
       <Presentation />
       <AboutMe />
       <HardSkills />
