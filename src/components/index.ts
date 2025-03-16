@@ -1,3 +1,6 @@
-export { default as Header } from "./Header";
-export * from "./Logo";
-export * from "./ToggleButton";
+export { default as Header } from "./Header"
+export { default as IconsList } from "./IconsList"
+export * from "./Logo"
+export * from "./Perfil"
+export * from "./ToggleButton"
+export * from "./Typographies"

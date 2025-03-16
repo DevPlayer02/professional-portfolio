@@ -1,18 +1,21 @@
-import styled from "styled-components";
-import { pxToRem } from "../utils";
-import { Logo } from "./Logo";
-import Button from "./ToggleButton";
+import styled from "styled-components"
+import { pxToRem } from "../utils"
+import { Logo } from "./Logo"
+import Button from "./ToggleButton"
 
 const StyledHeader = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #000000;
   color: #ffffff;
   border-bottom: ${pxToRem(3)} solid #ff6300;
-  margin-bottom: ${pxToRem(40)};
   width: 100%;
-`;
+  height: ${pxToRem(100)};
+`
 
 const StyledUl = styled.ul`
   display: flex;
@@ -30,13 +33,13 @@ const StyledUl = styled.ul`
     margin-right: 0;
     gap: 0;
   }
-`;
+`
 
 function Header() {
   return (
     <StyledHeader>
       <nav>
-        <Logo height={50} width={50} />
+        <Logo />
       </nav>
       <nav style={{ display: "flex", margin: pxToRem(50) }}>
         <StyledUl>
@@ -49,7 +52,7 @@ function Header() {
         <Button />
       </nav>
     </StyledHeader>
-  );
+  )
 }
 
-export default Header;
+export default Header

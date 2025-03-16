@@ -14,7 +14,6 @@ import {
 function App() {
   return (
     <div className="App">
-      <Header />
       <Presentation />
       <AboutMe />
       <HardSkills />
