@@ -1,5 +1,12 @@
 import { Container, Box, Grid } from "@mui/material"
-import { IconsList, Perfil, StyledH1, StyledH2, StyledP } from "../components"
+import {
+  IconsList,
+  Perfil,
+  StyledH1,
+  StyledH2,
+  StyledP,
+  StyledSpan,
+} from "../components"
 import { pxToRem } from "../utils"
 
 function Presentation() {
@@ -25,7 +32,7 @@ function Presentation() {
             gap: pxToRem(25),
           }}
         >
-          <StyledH1> Giovani Chaves Fortunato</StyledH1>
+          <StyledSpan> Giovani Chaves Fortunato</StyledSpan>
           <StyledH2> {"</ Desenvolvedor FullStack >"}</StyledH2>
           <IconsList />
         </Grid>

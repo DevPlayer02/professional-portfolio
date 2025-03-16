@@ -4,7 +4,7 @@ import { pxToRem } from "../utils"
 
 export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
     body, html {
-        font-family: "Orbitron", sans-serif;
+        font-family: "Roboto", sans-serif;
         background-color: #000000;
         color: #FFFFFF; 
         margin: 0;

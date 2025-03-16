@@ -1,12 +1,10 @@
-import { Theme } from "../types/theme";
+import { Theme } from "../types/theme"
 
 export const lightTheme: Theme = {
   appBackground: "#000000",
   appColor: "#000",
   appDefaultStroke: "#E0E0E0",
   appLogo: "logo-black.svg",
-  appSkeleton: "#EEE",
-  appskeletonTo: "#CCC",
   buttons: {
     alert: "#E80000",
     alertColor: "#FFF",
@@ -24,21 +22,12 @@ export const lightTheme: Theme = {
     success: "#008000",
     warning: "#F7A300",
   },
-  textInput: {
-    active: "#FFF",
-    activeColor: "#000",
-    borderColor: "#E0E0E0",
-    disabled: "#EEE",
-    disabledBorderColor: "#E0E0E0",
-    disabledColor: "#666",
-    placeholderColor: "#666",
-  },
   typography: {
     error: "#FF0202",
     subtitle: "#666",
     success: "#008008",
   },
-};
+}
 
 export const darkTheme: Theme = {
   appBackground: "#000000",
@@ -55,4 +44,4 @@ export const darkTheme: Theme = {
     primaryColor: "#FFF",
     primaryHover: "#0061DE",
   },
-};
+}
