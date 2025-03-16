@@ -7,11 +7,12 @@ const ToggleButton = styled.button`
   align-items: center;
   justify-content: ${({ isDark }) => (isDark ? "flex-start" : "flex-end")};
   gap: ${pxToRem(10)};
-  width: ${pxToRem(80)};
+  width: ${pxToRem(70)};
+  height: ${pxToRem(20)};
   background: ${({ isDark }) => (isDark ? "#101010" : "#ffffff")};
   color: ${({ isDark }) => (isDark ? "white" : "black")};
   font-size: ${pxToRem(9)};
-  padding: ${pxToRem(12)} ${pxToRem(20)};
+  padding: ${pxToRem(12)} ${pxToRem(15)};
   border: ${pxToRem(1)} solid #ffffff;
   border-radius: ${pxToRem(50)};
   cursor: pointer;
@@ -25,9 +26,6 @@ const ToggleButton = styled.button`
     box-shadow: 0 0 ${pxToRem(20)}
       ${({ isDark }) =>
         isDark ? "rgba(255, 255, 255, 0.6)" : "rgba(0, 0, 0, 0.5)"};
-  }
-  &:click {
-    inverter posição
   }
 `;
 
