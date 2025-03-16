@@ -1,5 +1,5 @@
 import { Container, Box, Grid } from "@mui/material"
-import { StyledH1, StyledP } from "../components"
+import { StyledH1, StyledP, StyledSpan } from "../components"
 
 function AboutMe() {
   return (
@@ -20,8 +20,8 @@ function AboutMe() {
           outros projetos estratégicos, que você pode conferir aqui no meu
           portfólio. Se você busca um site que atraia clientes, converta
           visitantes e impulsione seu negócio, estou pronto para transformar sua
-          visão em realidade. Vamos conversar? 📩 Entre em contato e vamos criar
-          algo incrível juntos!
+          visão em realidade. Vamos conversar?
+          <br /> 📩 Entre em contato e vamos criar algo incrível juntos!
         </StyledP>
       </Container>
     </Grid>

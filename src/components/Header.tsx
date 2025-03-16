@@ -43,10 +43,10 @@ function Header() {
       </nav>
       <nav style={{ display: "flex", margin: pxToRem(50) }}>
         <StyledUl>
-          <li>Presentation</li>
-          <li>Hardskill</li>
-          <li>Projects</li>
-          <li>Services Provided</li>
+          <li>Apresentação</li>
+          <li>Habilidades</li>
+          <li>Projetos</li>
+          <li>Serviços Prestados</li>
           <div>|</div>
         </StyledUl>
         <Button />
