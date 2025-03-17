@@ -35,6 +35,12 @@ export const StyledH2 = styled.h2<typographiesProps>`
   font-weight: ${(props) => props.weight || 600};
   line-height: ${(props) => pxToRem(props.lineHeight || 24)};
 `
+export const StyledH3 = styled.h3<typographiesProps>`
+  color: ${(props) => props.color || "inherit"};
+  font-size: ${(props) => pxToRem(props.size || 24)};
+  font-weight: ${(props) => props.weight || 600};
+  line-height: ${(props) => pxToRem(props.lineHeight || 24)};
+`
 
 export const StyledP = styled.p<typographiesProps>`
   color: ${(props) => props.color || "inherit"};

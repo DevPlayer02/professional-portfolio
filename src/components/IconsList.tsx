@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa"
 import { pxToRem } from "../utils"
 
-export const ListOfIcons = styled.ul`
+export const StyledIconsList = styled.ul`
   display: flex;
   aligm-itens: center;
   gap: ${pxToRem(20)};
@@ -25,7 +25,7 @@ export const ListOfIcons = styled.ul`
 function IconsList() {
   return (
     <>
-      <ListOfIcons>
+      <StyledIconsList>
         <li>
           <a href="https://github.com/DevPlayer02">
             <FaGithub size={pxToRem(40)} />
@@ -46,7 +46,7 @@ function IconsList() {
             <FaWhatsapp size={pxToRem(40)} />
           </a>
         </li>
-      </ListOfIcons>
+      </StyledIconsList>
     </>
   )
 }
