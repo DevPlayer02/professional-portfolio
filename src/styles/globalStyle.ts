@@ -13,11 +13,12 @@ export const GlobalStyle = createGlobalStyle<{ theme?: DefaultTheme }>`
         width: 100%;
     }
 
-    h1, h2, p, ul, li, figure {
+    h1, h2, p, ul, li, figure, a {
         margin: 0;
         padding: 0;
         text-decoration: none;
         list-style: none;
+        color: inherit;
     }
 
     .mb-1 {

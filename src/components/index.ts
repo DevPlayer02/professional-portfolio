@@ -1,6 +1,7 @@
 export { default as Header } from "./Header"
 export { default as IconsList } from "./IconsList"
 export { default as HardSkillsCard } from "./HardSkillsCard"
+export { default as ProjectsCard } from "./ProjectsCard"
 export * from "./Logo"
 export * from "./Perfil"
 export * from "./ToggleButton"
