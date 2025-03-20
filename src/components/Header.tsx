@@ -24,9 +24,8 @@ const StyledUl = styled.ul`
   margin-right: ${pxToRem(50)};
 
   & li {
-    list-style: none;
-    color: white; /* Exemplo de cor */
     font-weight: bold;
+    cursor: pointer;
   }
 
   & li:last-child {
