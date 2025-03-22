@@ -1,6 +1,7 @@
 import { Container, Grid } from "@mui/material";
 import { ProjectsCard, StyledH1 } from "../components";
 import dashDnc from '../assets/dash-dnc.png';
+import movieList from '../assets/movie-list.png';
 
 const projects = [
  {
@@ -10,34 +11,10 @@ const projects = [
     repository: "https://github.com/DevPlayer02/dnc-sales-dashboard-gcf",
   },
   {
-    img: dashDnc,
-    title: "Outro Projeto",
-    description: "Outro projeto semelhante com características diferentes.",
-    repository: "https://github.com/DevPlayer02/dnc-sales-dashboard-gcf",
-  },
-  {
-    img: dashDnc,
-    title: "Outro Projeto",
-    description: "Outro projeto semelhante com características diferentes.",
-    repository: "https://github.com/DevPlayer02/dnc-sales-dashboard-gcf",
-  },
-  {
-    img: dashDnc,
-    title: "Outro Projeto",
-    description: "Outro projeto semelhante com características diferentes.",
-    repository: "https://github.com/DevPlayer02/dnc-sales-dashboard-gcf",
-  },
-  {
-    img: dashDnc,
-    title: "Outro Projeto",
-    description: "Outro projeto semelhante com características diferentes.",
-    repository: "https://github.com/DevPlayer02/dnc-sales-dashboard-gcf",
-  },
-  {
-    img: dashDnc,
-    title: "Outro Projeto",
-    description: "Outro projeto semelhante com características diferentes.",
-    repository: "https://github.com/DevPlayer02/dnc-sales-dashboard-gcf",
+    img: movieList,
+    title: "Movie List",
+    description: "Um site de listagem de filmes com informações detalhadas, com sistema de busca e filtro de filmes, além de um sistema de favoritos que salva no local storage do navegador.",
+    repository: "https://github.com/DevPlayer02/dnc-movie-list/",
   },
   {
     img: dashDnc,
