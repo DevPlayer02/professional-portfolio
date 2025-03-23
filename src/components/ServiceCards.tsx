@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { pxToRem } from "../utils"
-import { Container, Grid } from "@mui/material"
 import { StyledH2, StyledP } from "./Typographies"
 import { ServiceCardsProps } from "../types"
 
