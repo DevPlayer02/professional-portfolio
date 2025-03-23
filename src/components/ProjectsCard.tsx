@@ -5,7 +5,7 @@ import { StyledH2, StyledP } from "./Typographies"
 import { ProjectsCardProps } from "../types"
 
 const StyledProjectsCard = styled.div`
-    .custom-h2 {
+    .custom-title {
       color: #ff6300;
     }
 
@@ -40,7 +40,7 @@ function ProjectsCard({ img, title, description, repository, reverse = false }: 
             <a href={repository}><img src={img} alt={title} /></a>
           </Grid>
           <Grid item xs={12} md={6}>
-            <StyledH2 className="mb-1 custom-h2">{title}</StyledH2>
+            <StyledH2 className="mb-1 custom-title">{title}</StyledH2>
             <StyledP className="mb-1">{description}</StyledP>
             <StyledP><a href={repository}><strong>Ver projeto</strong></a></StyledP>
           </Grid>

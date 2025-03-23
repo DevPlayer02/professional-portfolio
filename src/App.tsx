@@ -1,6 +1,3 @@
-//COMPONENTS
-import { Header } from "./components";
-
 // PAGES
 import {
   AboutMe,
