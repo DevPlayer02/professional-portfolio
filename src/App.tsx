@@ -3,7 +3,6 @@ import {
   AboutMe,
   Footer,
   HardSkills,
-  Navbar,
   Presentation,
   Projects,
   ServicesProvided,
@@ -12,7 +11,6 @@ import {
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Presentation />
       <AboutMe />
       <HardSkills />
